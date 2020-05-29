@@ -1,33 +1,24 @@
 a,
-h2,
-h1 {
+h3,
+h1,
+h4 {
   font-family: Garamound, Baskerville, Baskerville Old Face, Hoefler Text,
     Times New Roman, serif;
-  color: #b57edc;
+  color: #d3d3d3;
 }
 
-#framey {
-  width: 100%;
-  height: 100%;
+body {
+  background-color: #2f4f4f;
+  color: #d3d3d3;
 }
 
-/* #name {
+#header {
+  padding: 80px 0 0 55px;
+  font-size: 36px;
+  color: black;
   font-family: Garamound, Baskerville, Baskerville Old Face, Hoefler Text,
     Times New Roman, serif;
-  color: lavender;
-} */
-
-/*
-h1 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 20px;
 }
-
-#name {
-  font: aclonica;
-  color: lavender;
-}*/
 
 .body-color {
   background: -webkit-linear-gradient(
@@ -62,7 +53,7 @@ h1 {
 .paper {
   /* font: normal 12px/1.5 "Lucida Grande", arial, sans-serif; */
   width: 50%;
-  height: 80%;
+  /* height: 80%; */
   margin: 0 auto;
   padding: 6px 5px 4px 55px;
   position: relative;
@@ -70,14 +61,7 @@ h1 {
   line-height: 20px;
   border: 1px solid #d2d2d2;
   background: #fff;
-  background: -webkit-gradient(
-      linear,
-      0 0,
-      0 100%,
-      from(#d9eaf3),
-      color-stop(4%, #fff)
-    )
-    0 4px;
+
   background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
   background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
   background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
@@ -95,31 +79,8 @@ h1 {
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
   width: 816px;
-
-  /*height: 1056px;
-  padding: 37px 55px 27px;
-  position: relative;
-  border: 1px solid #b5b5b5;
-  background: white;
-  background: -webkit-linear-gradient(top, #dfe8ec 0%, white 8%) 0 57px;
-  background: -moz-linear-gradient(top, #dfe8ec 0%, white 8%) 0 57px;
-  background: linear-gradient(top, #dfe8ec 0%, white 8%) 0 57px;
-  -webkit-background-size: 100% 30px;
-  -moz-background-size: 100% 30px;
-  -ms-background-size: 100% 30px;
-  background-size: 100% 30px;*/
 }
 .paper::before {
-  /*content: "";
-  z-index: -1;
-  margin: 0 1px;
-  width: 706px;
-  height: 10px;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  background: white;
-  border: 1px solid #b5b5b5;*/
   content: "";
   position: absolute;
   width: 4px;
@@ -146,30 +107,4 @@ h1 {
   margin-left: -55px;
   margin-right: -4px;
   margin-top: -4px;
-}
-
-.make-me-sticky {
-  position: sticky;
-  top: 0;
-
-  padding: 0 15px;
-}
-
-.sidebar-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 25%;
-
-  /* Position the items */
-  &:nth-child(2) {
-    top: 25%;
-  }
-  &:nth-child(3) {
-    top: 50%;
-  }
-  &:nth-child(4) {
-    top: 75%;
-  }
 }
