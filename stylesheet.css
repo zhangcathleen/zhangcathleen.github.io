@@ -49,6 +49,12 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+#war:hover {
+  background: goldenrod;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .body-color {
   background: -webkit-linear-gradient(
     top,
