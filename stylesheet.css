@@ -1,10 +1,28 @@
-a,
-h3,
-h1,
-h4 {
+@font-face {
+  font-family: metamorphous;
+  src: url(https://fonts.googleapis.com/css?family=Metamorphous);
+}
+
+.norm,
+.norm:hover,
+#name {
   font-family: Garamound, Baskerville, Baskerville Old Face, Hoefler Text,
     Times New Roman, serif;
   color: #d3d3d3;
+}
+
+#name {
+  background: -webkit-linear-gradient(135deg, #d3c41e, navy);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dot {
+  font-size: 10px;
+}
+
+.email {
+  font-size: 40px;
 }
 
 body {
@@ -12,12 +30,23 @@ body {
   color: #d3d3d3;
 }
 
-#header {
-  padding: 80px 0 0 55px;
-  font-size: 36px;
-  color: black;
-  font-family: Garamound, Baskerville, Baskerville Old Face, Hoefler Text,
-    Times New Roman, serif;
+#groot-contact {
+  color: #1c2f2f;
+}
+
+#groot-contact:hover {
+  text-decoration: underline;
+  color: #26473a;
+}
+
+#groot-resume:hover {
+  color: #99cfe0;
+}
+
+#z:hover {
+  background: #e22822;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .body-color {
@@ -107,4 +136,27 @@ body {
   margin-left: -55px;
   margin-right: -4px;
   margin-top: -4px;
+}
+
+#header {
+  padding: 80px 0 0 55px;
+  font-size: 36px;
+  color: black;
+  font-family: metamorphous, Garamound, Baskerville, Baskerville Old Face,
+    Hoefler Text, Times New Roman, serif;
+}
+
+.recipe {
+  font-family: metamorphous, Garamound, Baskerville, Baskerville Old Face,
+    Hoefler Text, Times New Roman, serif;
+  color: #515151;
+  font-size: 18px;
+  transition: color 0.5s;
+  text-decoration: underline;
+}
+
+.recipe:hover {
+  background: -webkit-linear-gradient(left, #ffa500, #ff00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
