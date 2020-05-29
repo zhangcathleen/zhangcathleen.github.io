@@ -85,6 +85,8 @@ body {
   height: 94%;
 }
 
+$paper: #efe4e4;
+
 .paper {
   /* font: normal 12px/1.5 "Lucida Grande", arial, sans-serif; */
   width: 50%;
@@ -123,7 +125,7 @@ body {
   left: 35px;
   bottom: 0;
   border: 1px solid;
-  border-color: transparent #efe4e4;
+  border-color: transparent;
 }
 .paper::after {
   content: "";
