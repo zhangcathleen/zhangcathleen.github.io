@@ -8,6 +8,8 @@ I also came across this blog [ http://yummymelon.com/devnull/administering-macpo
 which linked to [ https://saagarjha.com/blog/2019/04/26/thoughts-on-macos-package-managers/ ].
 I decided to download macports instead of homebrew, which I didn't know was package manager / I could choose
 
+https://www.getlektor.com/docs/quickstart/
+
 
 Trying to create a website Dec 30, 2024
 
