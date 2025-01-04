@@ -18,6 +18,8 @@ Next steps today :
 Currently : running into issues with creating a github pages
 I think I github only allows uers to host one pages - using my username @ <username>.github.io
 I also received an email from github stating there was a failed workflow
+
+I am done for today. I messed up the local repo and had to reinit... Kind of understood github a bit more ngl
 ~~
 
 Jan 2, 2024
