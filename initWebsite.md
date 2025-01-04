@@ -9,6 +9,11 @@ localhost:5000
 
 Cool - it created a simple lektor server and then I built it
 $ lektor build
+
+Next steps today :
++ create a github pages - hamandtomatoe.github.io
++ error page set up
++ portfolio guide set up
 ~~
 
 Jan 2, 2024
