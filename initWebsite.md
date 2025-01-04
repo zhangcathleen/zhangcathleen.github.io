@@ -12,8 +12,12 @@ $ lektor build
 
 Next steps today :
 + create a github pages - hamandtomatoe.github.io
-+ error page set up
++ error page set up	
 + portfolio guide set up
+
+Currently : running into issues with creating a github pages
+I think I github only allows uers to host one pages - using my username @ <username>.github.io
+I also received an email from github stating there was a failed workflow
 ~~
 
 Jan 2, 2024
