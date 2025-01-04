@@ -1,3 +1,16 @@
+Jan 4, 2024
+
+I'm gonna try out Lektor - lektor init
+
+After initialized :
+$ cd [projectFolder]
+$ lektor server
+localhost:5000
+
+Cool - it created a simple lektor server and then I built it
+$ lektor build
+~~
+
 Jan 2, 2024
 Happy new year!
 
@@ -9,7 +22,7 @@ which linked to [ https://saagarjha.com/blog/2019/04/26/thoughts-on-macos-packag
 I decided to download macports instead of homebrew, which I didn't know was package manager / I could choose
 
 https://www.getlektor.com/docs/quickstart/
-
+~~
 
 Trying to create a website Dec 30, 2024
 
