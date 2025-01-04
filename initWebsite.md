@@ -20,6 +20,8 @@ I think I github only allows uers to host one pages - using my username @ <usern
 I also received an email from github stating there was a failed workflow
 
 I am done for today. I messed up the local repo and had to reinit... Kind of understood github a bit more ngl
+
+https://www.getlektor.com/docs/guides/error-pages/
 ~~
 
 Jan 2, 2024
